@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Index";
+}
+
+<a href="/Mascota/CrearMascota" class="btn btn-info">Agregar Mascota</a>
+<table class="table table-dark table-hover">
+    <thead>
+    <tr>
+
+        <th>Nombre</th>
+        <th>Fecha De Nacimiento</th>
+        <th>Sexo</th>
+        <th>Especie</th>
+        <th>Raza</th>
+        <th>Tamaño</th>
+        <th>Datos Particulares</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.nombreMascota</td>
+            <td>@item.fechaNacimientoMascota</td>
+            <td>@item.Sexo</td>
+            <td>@item.Especie</td>
+            <td>@item.Raza</td>
+            <td>@item.Tamanio</td>
+            <td>@item.datosParticulares</td>
+            <td>
+                <a class="btn btn-light" href="/Mascota/HistoriasClinicas?IdMascota=@item.Id">Historial</a>
+            </td>
+
+        </tr>
+    }
+    </tbody>
+</table>

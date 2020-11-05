@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Crear";
+}
+
+<h3>Agregar Nueva Mascota</h3>
+<div class="container">
+    <form action="/Mascota/GuardarMascota" method="post">
+        <div class="row">
+
+
+
+
+            <div class="col-lg-6">
+                <label>Nombre</label>
+                <input class="form-control" name="nombreMascota" />
+                <label>Fecha Nacimiento</label>
+                <input name="fechaNacimientoMascota" />
+                <br />
+                <label>Sexo</label>
+                <select class="form-control" name="Sexo">
+                    <option name="">--Elija el Sexo--</option>
+                    @foreach (var item in ViewBag.Sexo)
+                    {
+                        <option value="@item"> @item</option>
+                    }
+                </select>
+                <label>Especie</label>
+                <select class="form-control" name="Especie">
+                    <option name="">--Elija la especie--</option>
+                    @foreach (var item in ViewBag.Especie)
+                    {
+                        <option value="@item"> @item</option>
+                    }
+                </select>
+
+            </div>
+            <div class="col-lg-6">
+               
+                <label>Raza</label>
+                <select class="form-control" name="Raza">
+                    <option name="">--Elija la raza--</option>
+                    @foreach (var item in ViewBag.Raza)
+                    {
+                        <option value="@item"> @item</option>
+                    }
+                </select>
+                <label>Tamaño</label>
+                <input class="form-control" name="Tamanio" />
+                <label>Datos particulares</label>
+                <textarea class="form-control" name="DatosParticulares"></textarea>
+            </div>
+            </div>
+            <button class="btn btn-info">Guardar</button>
+</form>
+</div>

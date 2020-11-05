@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Crear";
+}
+
+<h1>Crear Registro</h1>
+<form action="/Mascota/GuardarRegistro" method="post">
+    <label>Descripcion</label>
+    <input name="Descripcion" />
+    <input name="IdMascota" value="@ViewBag.IdMascota" type="hidden" />
+    
+    <button>Guardar</button>
+</form>

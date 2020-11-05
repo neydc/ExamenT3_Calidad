@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Index";
+}
+
+<a class="btn btn-info" href="/Mascota/CrearRegistro?IdMAscota=@ViewBag.IdMascota">Crear Nuevo Registro</a>
+<table class="table table-dark">
+    <thead>
+    <tr>
+
+        <th>Codigo de Registro</th>
+        <th>Fecha de Registro</th>
+        <th>Descripcion</th>
+    
+
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.codigoRegistro</td>
+            <td>@item.FechaRegistro</td>
+            <td>@item.Descripcion</td>
+      
+
+        </tr>
+    }
+    </tbody>
+</table>

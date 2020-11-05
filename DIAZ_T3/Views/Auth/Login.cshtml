@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<form method="post" action="/Auth/Login">
+    <label>Username</label>
+    <input class="form-control" name="Username" />
+    <label>Password</label>
+    <input class="form-control" name="Password" />
+
+    <p>@ViewBag.Validation</p>
+    <button class="btn btn-primary">Iniciar Sesión</button>
+
+</form>

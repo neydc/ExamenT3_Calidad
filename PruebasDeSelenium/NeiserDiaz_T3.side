@@ -1,0 +1,729 @@
+{
+  "id": "2cd9dff0-c1bf-4c5f-970f-93c0de3a9450",
+  "version": "2.0",
+  "name": "NeiserDiaz_T3",
+  "url": "https://localhost:44368/",
+  "tests": [{
+    "id": "c82678f5-9332-43dd-b08a-011e2216b9c6",
+    "name": "Autenticación de Usuarios Login ",
+    "commands": [{
+      "id": "8f2d542c-68d1-425f-a93e-8521c5fa7479",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44368/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5769911b-2981-4558-84e3-5c45b329af47",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12f58d79-98e4-4d22-a535-c359fe1d4387",
+      "comment": "",
+      "command": "click",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff39f9ce-99df-4cc5-9804-262044b195ad",
+      "comment": "",
+      "command": "click",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e391fdde-3402-4b08-9430-d252118e1b09",
+      "comment": "",
+      "command": "type",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "912826e4-33ae-4fed-8fec-28b7f78a9118",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65d9fbef-253b-476e-9cae-4cb4b38335c8",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "d48d4d0a-45ba-42d7-9a92-5a0d0718964a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5018c9a4-44bd-4210-8776-6da54a92bbe4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ca9f3610-9198-4922-abb2-26a64a0e9b68",
+    "name": "Agregar Mascota",
+    "commands": [{
+      "id": "9de4cc0f-71c9-4e66-a791-cfeb5dfea77a",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44368/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd653690-29ad-4f01-99b6-e227b61d1a00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79208996-39c5-4f81-ace4-5b530a42a7a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc199ae3-df6d-4605-a444-cb661971d754",
+      "comment": "",
+      "command": "type",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "0ae30962-c08f-44e3-8467-06f95e94cc9b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3243742-5bde-4be6-b9ef-a2a5d844b567",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "4cec0e70-2acc-4c8e-869c-c3802bb6ae4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2d43ae5-42af-41be-9d08-18b977f16879",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Agregar Mascota",
+      "targets": [
+        ["linkText=Agregar Mascota", "linkText"],
+        ["css=.pb-3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Agregar Mascota')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Veterinaria/CrearMascota')]", "xpath:href"],
+        ["xpath=//main/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Agregar Mascota')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b5651c1-5ac3-44b5-bd4e-bffb5ce7faa5",
+      "comment": "",
+      "command": "click",
+      "target": "name=nombreMascota",
+      "targets": [
+        ["name=Nombre", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='Nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da49adae-2e29-4f52-b771-facf454f8f40",
+      "comment": "",
+      "command": "type",
+      "target": "name=nombreMascota",
+      "targets": [
+        ["name=Nombre", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='Nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Laika"
+    }, {
+      "id": "6d93b25d-c26a-4ae4-a493-130fad5e3e66",
+      "comment": "",
+      "command": "click",
+      "target": "name=fechaNacimientoMascota",
+      "targets": [
+        ["name=FechaN", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='FechaN']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac572719-7fb2-46e1-bf2b-c13dadddbc9d",
+      "comment": "",
+      "command": "type",
+      "target": "name=fechaNacimientoMascota",
+      "targets": [
+        ["name=FechaN", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='FechaN']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "2018-11-05"
+    }, {
+      "id": "61007b46-4e24-42b9-bc37-8f12a98693f6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Sexo",
+      "targets": [
+        ["name=Sexo", "name"],
+        ["css=select:nth-child(6)", "css:finder"],
+        ["xpath=//select[@name='Sexo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc14e5f0-574a-401f-8428-667a658720d2",
+      "comment": "",
+      "command": "select",
+      "target": "name=Sexo",
+      "targets": [],
+      "value": "label=Masculino"
+    }, {
+      "id": "f83966ca-60e5-4610-a984-379f906f811b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Sexo",
+      "targets": [
+        ["name=Sexo", "name"],
+        ["css=select:nth-child(6)", "css:finder"],
+        ["xpath=//select[@name='Sexo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01c111c7-57d2-4e09-b052-38d1c832b624",
+      "comment": "",
+      "command": "click",
+      "target": "name=Especie",
+      "targets": [
+        ["name=Especie", "name"],
+        ["css=select:nth-child(8)", "css:finder"],
+        ["xpath=//select[@name='Especie']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "526e2c3d-fed1-43eb-af39-d0c9847d80e9",
+      "comment": "",
+      "command": "select",
+      "target": "name=Especie",
+      "targets": [],
+      "value": "label=Especie A"
+    }, {
+      "id": "7e0763a4-51f9-4f6e-80ad-752c881f7771",
+      "comment": "",
+      "command": "click",
+      "target": "name=Especie",
+      "targets": [
+        ["name=Especie", "name"],
+        ["css=select:nth-child(8)", "css:finder"],
+        ["xpath=//select[@name='Especie']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "852cf6c9-0caa-4f1f-adce-04851f9df140",
+      "comment": "",
+      "command": "click",
+      "target": "name=Raza",
+      "targets": [
+        ["name=Raza", "name"],
+        ["css=select:nth-child(10)", "css:finder"],
+        ["xpath=//select[@name='Raza']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05cf8c9c-1079-41a9-99dc-34a6ceecf988",
+      "comment": "",
+      "command": "select",
+      "target": "name=Raza",
+      "targets": [],
+      "value": "label=Alemán"
+    }, {
+      "id": "509f30a7-075f-47fb-932a-fe62d9627a08",
+      "comment": "",
+      "command": "click",
+      "target": "name=Raza",
+      "targets": [
+        ["name=Raza", "name"],
+        ["css=select:nth-child(10)", "css:finder"],
+        ["xpath=//select[@name='Raza']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df620f21-994f-477f-b7c0-6e91fdbd511b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Tamanio",
+      "targets": [
+        ["name=Dimension", "name"],
+        ["css=input:nth-child(12)", "css:finder"],
+        ["xpath=//input[@name='Dimension']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe498de8-dc01-4bd5-8979-3e888e0e7334",
+      "comment": "",
+      "command": "type",
+      "target": "name=Tamanio",
+      "targets": [
+        ["name=Dimension", "name"],
+        ["css=input:nth-child(12)", "css:finder"],
+        ["xpath=//input[@name='Dimension']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Grande"
+    }, {
+      "id": "061da012-282e-4b7d-95be-928e31a3fc21",
+      "comment": "",
+      "command": "click",
+      "target": "name=DatosParticulares",
+      "targets": [
+        ["name=DatosParticulares", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='DatosParticulares']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eaa02e2-b4a2-4cdf-8765-32e6c94fed46",
+      "comment": "",
+      "command": "type",
+      "target": "name=DatosParticulares",
+      "targets": [
+        ["name=DatosParticulares", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='DatosParticulares']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Soporta Calor Extremo"
+    }, {
+      "id": "d69a22de-1f4e-42da-abba-d5b6979e84be",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4149bc86-2059-4ce1-9f76-cc65215c8e2b",
+    "name": "Ver Registros Clinicos",
+    "commands": [{
+      "id": "fa0f942d-2772-424b-b44a-b0907f7e8c27",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44368/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a70dd5ee-32c8-4b67-8470-6525a594b5cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68a62284-f12a-4e3a-99ba-db2a19d8df5f",
+      "comment": "",
+      "command": "click",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b55b18a0-6321-41a3-917a-b27d7c20e08a",
+      "comment": "",
+      "command": "type",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "cb70e2e3-46cc-4b64-a06b-6a1e06dd76be",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b742921f-bfaa-46b0-8da8-c9c12aa0ccb8",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "bd28acf6-aa21-438a-9d4c-d6a96ee3c171",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d749986e-4b05-4b75-8e87-564281dd8f02",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Historial",
+      "targets": [
+        ["linkText=Historial clinico", "linkText"],
+        ["css=tr:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Historial clinico')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Veterinaria/HistoriasClinicas?IdMascota=1')]", "xpath:href"],
+        ["xpath=//td[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Historial clinico')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15769398-8347-4e61-ad78-1e3263be17c8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6c18e5be-65a6-4df2-a9aa-e027af1bebb8",
+    "name": "Ver todas mis mascotas ",
+    "commands": [{
+      "id": "963c3546-d6df-492c-b017-1f9689108a75",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44368/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0574cdfc-f0ce-407e-a9a1-4e9de374cdd5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d17890c-b28c-489d-9a7a-aa5689208a68",
+      "comment": "",
+      "command": "click",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce8eb288-a678-492f-a0a0-ab99a869159a",
+      "comment": "",
+      "command": "type",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "33b0e6bc-a298-42f4-a258-aa3ec53eb75b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "022ea81e-355b-4e92-bc62-143ff995abfc",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "32afc58d-c2bb-4ca6-a3c8-8b165372e6d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4788302-4b17-4d42-9c34-19655f9dd70f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f76451eb-503b-4c2a-98b7-ec8b61b1bd97",
+    "name": "Crear Historia Clinica",
+    "commands": [{
+      "id": "3f3e6364-272d-483a-9a92-171eb5f0fb5d",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44368/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cb1a60b-0f5d-4a88-b6ce-2d9b454ec2ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fd9669c-2090-4958-a2f6-c4a50813c84f",
+      "comment": "",
+      "command": "click",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cbd6e94-2c7e-442b-9f22-c0ddd926213f",
+      "comment": "",
+      "command": "type",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "87a43789-597c-46d3-be73-7c3cf8d5ad6a",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e458153f-5a20-41ae-b9c7-721e44b9d1ea",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "06d37fd1-2bbf-4f57-b5ca-ae0503b73dc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "262589f5-3272-4bb7-a72d-0bfeefa45302",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Historial ",
+      "targets": [
+        ["linkText=Historial clinico", "linkText"],
+        ["css=tr:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Historial clinico')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Veterinaria/HistoriasClinicas?IdMascota=1')]", "xpath:href"],
+        ["xpath=//td[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Historial clinico')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b012bf-1e76-4d04-9d23-fb317d1e88a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crear Nuevo Registro",
+      "targets": [
+        ["linkText=Agregar registro", "linkText"],
+        ["css=.pb-3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Agregar registro')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Veterinaria/CrearRegistro?IdMAscota=1')]", "xpath:href"],
+        ["xpath=//main/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Agregar registro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa29e476-1095-4f1b-9281-b442938825a3",
+      "comment": "",
+      "command": "click",
+      "target": "name=Descripcion",
+      "targets": [
+        ["name=Descripcion", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='Descripcion']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfc8f260-56a0-4de0-8537-e891b740e75e",
+      "comment": "",
+      "command": "type",
+      "target": "name=Descripcion",
+      "targets": [
+        ["name=Descripcion", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='Descripcion']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "vacuna semanal"
+    }, {
+      "id": "bad73fe4-14db-4980-9928-2ff6984cbd6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f75abc9-319e-4291-a965-779d237bfb34",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "28bff5bd-7a6d-4b02-960c-b1849fe681fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c82678f5-9332-43dd-b08a-011e2216b9c6"]
+  }],
+  "urls": ["https://localhost:5001/", "https://localhost:44368/"],
+  "plugins": []
+}
